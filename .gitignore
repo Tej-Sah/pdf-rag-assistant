@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Local Storage & Uploads
+qdrant_storage/
+uploads/
+inngest.log
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Frontend dependencies & build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
